@@ -1,0 +1,205 @@
+@font-face {
+  font-family: 'Roboto';
+  src: url('Roboto-Regular.woff2') format('woff2'),
+      url('Roboto-Regular.woff') format('woff');
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Roboto';
+  src: url('Roboto-Bold.woff2') format('woff2'),
+      url('Roboto-Bold.woff') format('woff');
+  font-weight: bold;
+  font-style: normal;
+  font-display: swap;
+}
+
+/* basic style start */
+*{
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  text-decoration: none;
+  box-sizing: border-box;
+}
+.container{
+  width: 1200px;
+  margin: 0 auto;
+  padding: 0px 25px;
+}
+/* basic style end */
+
+/* header style start  */
+.header{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 30px 80px 0px 60px;
+}
+.header-list{
+  display: flex;
+}
+.item-link{
+  margin-right: 40px;
+  color: #666;
+  text-align: center;
+  font-family: Roboto;
+  font-size: 17px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 150%;
+  
+}
+.change-link{
+  margin-right: 0px;
+}
+.item-link:hover{
+  border-bottom: 1.5px solid black;
+  }
+
+
+.change-item{
+
+}
+/* header style end  */
+/* main start  */
+.hero-section{
+  height: 670px;
+  background-image: url("../Images/watches.png");
+  background-repeat: no-repeat;
+  background-size: 587px 587px ;
+  background-position-x: calc(50% + 520px);
+  background-position-y: calc(50% + 55px);
+  
+ }
+.fredoom{
+  width: 490px;
+  height: 291px;
+  padding-left: 60px;
+  padding-top: 170px;
+}
+.fredoom-title{
+  color: #000;
+  font-family: Roboto;
+  font-size: 50px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 120%;
+  padding-bottom: 30px;
+  /* text-align: center; */
+}
+.content-end-line{
+  width: 490px;
+  height: 120px;
+  display: flex;
+  align-items: flex-start;
+  gap: 40px;
+  /* padding-left: 90px; */
+}
+.fredoom-line{
+  width: 5px;
+  height: 120px;
+  background-color: #888;
+}
+.fredoom-content{
+  color: #777;
+  font-family: Roboto;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 150%;
+}
+.fredoom-btn{
+  margin-top: 30px;
+  width: 260px;
+  height: 51px;
+  background: #EA625C;
+  border: #EA625C;
+  color: #FFF;
+
+  text-align: center;
+  font-family: Roboto;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 150%;
+  cursor: pointer;
+}
+.fredoom-btn:hover{
+  background-color: white;
+  color: #EA625C;
+  border: 1.5px solid #EA625C;
+  transition: all 0.4s;
+  font-weight: 700;
+}
+/* hero-section-two  start*/
+ul {
+  display: flex;
+}
+/* hero-section-two end */
+/* main end  */
+.hero-section-two{
+  margin-bottom: 98px;
+}
+
+.two-section-list{
+  display: flex;
+  justify-content: space-around;
+  margin-top: 80px;
+}
+
+.two-section-item{
+  width: 290px;
+}
+.two-section-title{
+  font-family: sans-serif;
+  font-size: 17px;
+  margin-bottom: 30px;
+}
+.two-section-text{
+  color: #333;
+  font-family: Roboto;
+  font-size: 15px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 160%;
+}
+.nike-sport{
+  height: 700px;
+  background-image: url("../Images/watch-in-hand.png");
+  background-repeat: no-repeat;
+  background-size: 400px 600px;
+  background-position-x: calc(50% + 374px);
+  background-position-y: calc(50% + 60px);
+  margin-bottom: 100px;
+ 
+}
+.take-control{
+  height: 830px;
+  background-image: url("../Images/runners\ 1.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.change-fredoom{
+  width: 450px;
+}
+.change-title-end{
+  color: white;
+ width: 490px;
+
+font-family: Roboto;
+font-size: 40px;
+font-style: normal;
+font-weight: 700;
+line-height: 120%;
+}
+.change-content{
+  color: #FFF;
+}
+.card{
+  width: 450px;
+padding-left: 530px;
+padding-top: 100px;
+}
